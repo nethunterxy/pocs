@@ -1,0 +1,14 @@
+{
+  "swagger": "2.0",
+  "info": { "title": "test", "version": "1.0" },
+  "host": "target.com",
+  "paths": {
+    "/test": {
+      "get": {
+        "parameters": [
+          { "$ref": "file:///etc/passwd" }
+        ]
+      }
+    }
+  }
+}

